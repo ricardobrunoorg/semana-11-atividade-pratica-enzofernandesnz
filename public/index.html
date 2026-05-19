@@ -1,13 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todos os Itens</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    
-</body>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mini Ecommerce</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Mini Ecommerce</h1>
+
+    <div>
+      <input id="busca" type="text" placeholder="Buscar produto..." />
+      <select id="categoria">
+        <option value="">Todas</option>
+      </select>
+      <button id="btnRenderizar">Renderizar</button>
+    </div>
+
+    <section>
+      <h2>Produtos</h2>
+      <p>Clique em um produto para ver seus detalhes completos.</p>
+      <div id="lista-produtos" class="produtos-grid"></div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
 </html>
